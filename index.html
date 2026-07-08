@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Precious Creations | Premium Skincare & Wellness</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="brand">
+
+<h1>The Precious Creations</h1>
+
+<img src="assets/logo.png" 
+alt="The Precious Creations Logo"
+class="logo-image">
+
+</div>
+
+
+<button class="menu-btn" id="menuBtn">
+
+☰
+
+</button>
+
+
+<nav id="navMenu">
+
+<a href="index.html">Home</a>
+
+<a href="products.html">Products</a>
+
+<a href="about.html">About</a>
+
+<a href="blog.html">Blog</a>
+
+<a href="contact.html">Contact</a>
+
+<a href="cart.html">Cart</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<!-- HERO SECTION -->
+
+
+<section class="hero">
+
+<div class="hero-overlay">
+
+<h1>
+Premium Skincare and Wellness
+</h1>
+
+<p>
+Nourishing Skin From The Inside Out
+</p>
+
+<p class="hero-text">
+
+Blending nature's finest botanical ingredients
+with science-backed formulations for healthy,
+radiant skin.
+
+</p>
+
+
+<a href="products.html" class="hero-btn">
+Discover The Collection
+</a>
+
+
+</div>
+
+</section>
+<!-- OUR STORY -->
+
+
+<section class="story">
+
+
+<h2>
+Our Story
+</h2>
+
+
+<h3>
+Healthy Skin Is A Right,
+<span>Not a Luxury</span>
+</h3>
+
+
+<p>
+
+The Precious Creations (TPC) is a premium skincare and wellness brand proudly based in Maseru, Lesotho.
+
+</p>
+
+
+<p>
+
+By blending nature's most powerful botanical ingredients with science-backed formulations, we create effective, luxurious products designed to nourish the skin, hair, and body from the inside out.
+
+</p>
+
+
+<p>
+
+Every product is carefully handcrafted to deliver visible results while honouring sustainability, transparency, and inclusivity.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<!-- PHILOSOPHY -->
+
+
+<section class="philosophy">
+
+
+<h2>
+Our Philosophy
+</h2>
+
+
+<p>
+<i>
+"Healthy skin is a reflection of overall wellness."
+</i>
+</p>
+
+
+</section>
+
+
+
+
+
+<!-- MISSION -->
+
+
+<section class="mission">
+
+
+<h2>
+Our Mission
+</h2>
+
+
+<p>
+
+To empower individuals through healthy skin by providing effective, accessible, and naturally inspired products. We aim to promote self-confidence, wellbeing, and conscious beauty for every skin type.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<!-- VISION -->
+
+
+<section class="vision">
+
+
+<h2>
+Our Vision
+</h2>
+
+
+<p>
+
+To lead a movement where beauty is defined by skin health, confidence, and sustainability, creating a future where personalized care and mindful formulations support healthy aging and natural radiance.
+
+</p>
+
+
+</section>
+
+
+
+
+<!-- FEATURED PRODUCTS -->
+
+<section class="featured">
+
+<h2>
+Featured Products
+</h2>
+
+
+<div id="featuredProducts" class="product-grid">
+
+
+
+<div class="product-card">
+
+<div class="badge best">
+Best Seller
+</div>
+
+<img src="assets/turmeric-combo.jpg" 
+alt="Turmeric Glow Up Combo">
+
+
+<h3>
+Turmeric Glow Up Combo
+</h3>
+
+
+<p>
+M500
+</p>
+
+
+<button onclick="addToCart('Turmeric Glow Up Combo','500')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/vitamin-c.jpg"
+alt="Vitamin C Serum">
+
+
+<h3>
+Vitamin C Serum
+</h3>
+
+
+<p>
+M180
+</p>
+
+
+<button onclick="addToCart('Vitamin C Serum','180')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/hair-growth-combo.jpg"
+alt="Extreme Hair Growth Combo">
+
+
+<h3>
+Extreme Hair Growth Combo
+</h3>
+
+
+<p>
+M300
+</p>
+
+
+<button onclick="addToCart('Extreme Hair Growth Combo','300')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/goji-serum.jpg"
+alt="Goji Berry Serum">
+
+
+<h3>
+Goji Berry Serum
+</h3>
+
+
+<p>
+M350
+</p>
+
+
+<button onclick="addToCart('Goji Berry Serum','350')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+</div>
+
+</section>
+
+
+
+<!-- WHY CHOOSE US -->
+
+
+<section class="why">
+
+
+<h2>
+Why Choose The Precious Creations?
+</h2>
+
+
+<ul>
+
+<li>
+✓ Premium Ingredients
+<br>
+Clean and effective botanicals.
+</li>
+
+
+<li>
+✓ Visible Results
+<br>
+Products designed to truly work.
+</li>
+
+
+<li>
+✓ Handcrafted Excellence
+<br>
+Small-batch production for quality.
+</li>
+
+
+<li>
+✓ Educational Transparency
+<br>
+We empower with knowledge.
+</li>
+
+
+<li>
+✓ Inclusive Beauty
+<br>
+For diverse skin tones and textures.
+</li>
+
+
+</ul>
+
+
+</section>
+
+
+
+
+
+<!-- OUR SIGNATURE RANGE -->
+
+
+<section class="signature-section" id="products">
+
+
+<h2>
+Our Signature Range
+</h2>
+
+
+<div class="product-grid">
+
+
+
+<div class="product-card">
+
+<img src="assets/rice-soap.jpg">
+
+<h3>
+Rice Flour Kaolin Clay Soap
+</h3>
+
+<p>
+M120
+</p>
+
+<button onclick="addToCart('Rice Flour Kaolin Clay Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/shampoo.jpg">
+
+<h3>
+Moisturizing and Conditioning Shampoo
+</h3>
+
+<p>
+M150
+</p>
+
+<button onclick="addToCart('Moisturizing and Conditioning Shampoo','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/hair-butter.jpg">
+
+<h3>
+Hair Butter
+</h3>
+
+<p>
+M150
+</p>
+
+<button onclick="addToCart('Hair Butter','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/coffee-soap.jpg">
+
+<h3>
+Coffee and Cedarwood Soap
+</h3>
+
+<p>
+M120
+</p>
+
+<button onclick="addToCart('Coffee and Cedarwood Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/carrot-oil.jpg">
+
+<h3>
+Carrot Face and Body Oil
+</h3>
+
+<p>
+M150
+</p>
+
+<button onclick="addToCart('Carrot Face and Body Oil','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/glow-combo.jpg">
+
+
+<h3>
+Glow Up Combo
+</h3>
+
+
+<p>
+M350
+</p>
+
+
+<button onclick="addToCart('Glow Up Combo','350')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/vitamin-c.jpg">
+
+<h3>
+Vitamin C Serum
+</h3>
+
+<p>
+M180
+</p>
+
+
+<button onclick="addToCart('Vitamin C Serum','180')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/goji-soap.jpg">
+
+<h3>
+Goji Berry and Rosehip Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Goji Berry and Rosehip Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/lightening-oil.jpg">
+
+<h3>
+Lightening Oil
+</h3>
+
+<p>
+M150
+</p>
+
+
+<button onclick="addToCart('Lightening Oil','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/lavender-soap.jpg">
+
+<h3>
+Lavender Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Lavender Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/rooibos-soap.jpg">
+
+<h3>
+Rooibos Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Rooibos Soap','120')">
+Add To Cart
+</button>
+
+</div>
+<div class="product-card">
+
+<img src="assets/goji-serum.jpg">
+
+<h3>
+Goji Berry Serum
+</h3>
+
+<p>
+M350
+</p>
+
+
+<button onclick="addToCart('Goji Berry Serum','350')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/hyaluronic.jpg">
+
+<h3>
+Vitamin C and Hyaluronic Acid Serum
+</h3>
+
+<p>
+M180
+</p>
+
+
+<button onclick="addToCart('Vitamin C and Hyaluronic Acid Serum','180')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/roll-on.jpg">
+
+<h3>
+Dark Armpits Roll On
+</h3>
+
+<p>
+M150
+</p>
+
+
+<button onclick="addToCart('Dark Armpits Roll On','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/lipbalm.jpg">
+
+<h3>
+Lip Balm
+</h3>
+
+<p>
+M40
+</p>
+
+
+<button onclick="addToCart('Lip Balm','40')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/honey-oats.jpg">
+
+<h3>
+Honey and Oats Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Honey and Oats Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/stretch-combo.jpg">
+
+
+<h3>
+Stretch Marks and Glow Combo
+</h3>
+
+<p>
+M550
+</p>
+
+
+<button onclick="addToCart('Stretch Marks and Glow Combo','550')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/lightening-cream.jpg">
+
+<h3>
+Lightening Cream
+</h3>
+
+<p>
+M400
+</p>
+
+
+<button onclick="addToCart('Lightening Cream','400')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/coffee-scrub.jpg">
+
+<h3>
+Coffee Scrub
+</h3>
+
+<p>
+M180
+</p>
+
+
+<button onclick="addToCart('Coffee Scrub','180')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/stretch-oil.jpg">
+
+<h3>
+Stretch Mark Oil
+</h3>
+
+<p>
+M200
+</p>
+
+
+<button onclick="addToCart('Stretch Mark Oil','200')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/carrot-turmeric-soap.jpg">
+
+<h3>
+Carrot, Papaya and Turmeric Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Carrot Papaya and Turmeric Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/thigh-combo.jpg">
+
+
+<h3>
+Dark Inner Thighs Cream and Carrot Face & Body Oil Combo
+</h3>
+
+
+<p>
+M450
+</p>
+
+
+<button onclick="addToCart('Dark Inner Thighs Cream and Carrot Face Body Oil Combo','450')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/showergel.jpg">
+
+<h3>
+Lightening Shower Gel
+</h3>
+
+<p>
+M150
+</p>
+
+
+<button onclick="addToCart('Lightening Shower Gel','150')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/papaya-soap.jpg">
+
+<h3>
+Papaya Soap
+</h3>
+
+<p>
+M120
+</p>
+
+
+<button onclick="addToCart('Papaya Soap','120')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+<img src="assets/hair-growth-oil.jpg">
+
+<h3>
+Extreme Hair Growth Oil
+</h3>
+
+<p>
+M100
+</p>
+
+
+<button onclick="addToCart('Extreme Hair Growth Oil','100')">
+Add To Cart
+</button>
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/hair-growth-combo.jpg">
+
+
+<h3>
+Extreme Hair Growth Combo
+</h3>
+
+
+<p>
+M300
+</p>
+
+
+<button onclick="addToCart('Extreme Hair Growth Combo','300')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<div class="badge best">
+Best Seller
+</div>
+
+
+<img src="assets/turmeric-combo.jpg">
+
+
+<h3>
+Turmeric Glow Up Combo
+</h3>
+
+
+<p>
+M500
+</p>
+
+
+<button onclick="addToCart('Turmeric Glow Up Combo','500')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+</div>
+
+</section>
+<!-- SMALL BATCH PRODUCTION -->
+
+<section class="small-batch">
+
+
+<h2>
+SMALL BATCH PRODUCTION FOR UNRIVALED QUALITY
+</h2>
+
+
+<p>
+
+Every bar of soap and bottle of serum at The Precious Creations
+is carefully handcrafted in Maseru.
+Our wire-cut artisan soaps are made with precision, ensuring that
+the botanical integrity of lavender, turmeric and our proprietary
+blends are preserved in every piece.
+
+</p>
+
+
+
+<div class="soap-images">
+
+
+<img src="assets/soap1.jpg"
+alt="Handcrafted Soap">
+
+
+<img src="assets/soap2.jpg"
+alt="Artisan Soap">
+
+
+<img src="assets/soap3.jpg"
+alt="Natural Soap">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- TESTIMONIALS -->
+
+
+<section class="testimonials">
+
+
+<h2>
+What Our Customers Say
+</h2>
+
+
+
+<div class="testimonial-grid">
+
+
+<div class="testimonial-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+
+<p>
+"The products have transformed my skincare routine. My skin feels softer, healthier and more confident."
+</p>
+
+
+<h3>
+— Happy Customer
+</h3>
+
+
+</div>
+
+
+
+
+
+<div class="testimonial-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+
+<p>
+"The Artisan Lavender Soap is amazing. I love that it feels natural and gentle on my skin."
+</p>
+
+
+<h3>
+— Beauty Customer
+</h3>
+
+
+</div>
+
+
+
+
+
+<div class="testimonial-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+
+<p>
+"The hair products helped me focus on taking better care of my hair with quality ingredients."
+</p>
+
+
+<h3>
+— Hair Care Customer
+</h3>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- AI SKINCARE ASSISTANT -->
+
+<section class="ai-assistant">
+
+<h2>
+TPC AI Skincare Assistant
+</h2>
+
+<p>
+Need help choosing products? Ask about your skincare needs.
+</p>
+
+<input type="text" id="aiQuestion" placeholder="Ask about skincare...">
+
+<button onclick="askAI()">
+Ask Assistant
+</button>
+
+<p id="aiAnswer"></p>
+
+</section>
+
+
+
+
+
+
+
+<!-- PAYMENT -->
+
+
+<section class="payment">
+
+
+<h2>
+Secure Payments
+</h2>
+
+
+<p>
+
+Customers can order products and complete payment through available payment options.
+
+</p>
+
+
+<div class="payment-options">
+
+
+<p>
+ Card Payments
+</p>
+
+
+<p>
+ Mobile Payments
+</p>
+
+
+<p>
+ Bank Transfer
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- BLOG -->
+
+
+<section class="blog-preview">
+
+
+<h2>
+TPC Beauty Journal
+</h2>
+
+
+<article>
+
+<h3>
+The Importance of Healthy Skin
+</h3>
+
+
+<p>
+
+Healthy skincare begins with understanding your skin, choosing quality ingredients and maintaining consistency.
+
+</p>
+
+
+</article>
+
+
+
+<article>
+
+<h3>
+Benefits of Botanical Skincare
+</h3>
+
+
+<p>
+
+Natural ingredients such as turmeric, lavender and botanical oils have been used for generations to support healthy-looking skin.
+
+</p>
+
+
+</article>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- VISIT -->
+
+
+<section class="visit">
+
+
+<h2>
+Visit Us
+</h2>
+
+
+<p>
+ NRH Mall, Room 13, Top Floor Kingsway, Maseru, Lesotho
+</p>
+
+
+<p>
+ +266 5733 3532
+</p>
+
+
+<p>
+✉ nletjoko1@icloud.com
+</p>
+
+
+</section>
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+The Precious Creations
+</h2>
+
+
+<p>
+Premium Skincare and Wellness Brand
+</p>
+
+
+<p>
+© 2026 The Precious Creations
+</p>
+
+
+</footer>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+ Designed and developed by KAYRO
+</body>
+
+</html>
